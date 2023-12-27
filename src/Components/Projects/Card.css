@@ -1,0 +1,28 @@
+.card-group
+{
+    gap: 3rem;
+    max-width: 70rem;
+    padding: 2rem 0rem;
+}
+.card
+{
+    background: #141414;
+    color: #fff;
+}
+.card:hover
+{
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5) 0%, orange);
+}
+
+@media screen and (max-width: 768px) 
+{
+    .card-group
+    {
+        padding:0;
+    }
+    .card
+    {
+        margin: 3rem 3rem;
+    }
+}

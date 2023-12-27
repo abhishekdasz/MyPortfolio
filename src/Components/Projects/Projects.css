@@ -1,0 +1,51 @@
+.project
+{
+    background: #1c1f2e;
+    color: #fff;
+    position: relative;
+}
+.col
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row
+{
+    display: flex;
+    justify-content: center;
+}
+.head-p
+{
+    text-align: center;
+}
+.project-blur-1
+{
+    width: 13rem;
+    height: 32rem;
+    position: absolute;
+    left: 0;
+}
+.project-blur-2
+{
+    width: 13rem;
+    height: 32rem;
+    position: absolute;
+    right: 0;
+}
+.card-margin
+{
+    margin: 0 3rem;
+}
+
+@media screen and (max-width: 768px) 
+{
+    .project-blur-2
+    {
+        width: 5rem;
+        height: 92rem;
+        position: absolute;
+        right: 0;
+    }
+}

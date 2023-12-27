@@ -1,0 +1,47 @@
+.qualification_container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.qualification_tabs
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+.qualification_button
+{
+    font-weight: 400;
+    cursor: pointer;
+    margin: 0 2rem;
+}
+.qualification_data
+{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+.qual-data
+{
+    padding: 2rem 0;
+}
+.qualification_rounder
+{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: blue;
+    border-radius: 50%;
+    transform: translate(0px, 24px);
+}
+.qualification_line
+{
+    display: block;
+    width: 3px;
+    height: 100%;
+    background-color: blue;
+    /* transform: translate(6px, -7px); */
+    transform: translate(5px, 17px);
+}

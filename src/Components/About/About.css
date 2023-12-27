@@ -1,0 +1,83 @@
+.aboutPage
+{
+    display: flex;
+    justify-content: space-around;
+    background: url(../../Assets/Images/bg-2.png);
+    /* background: #1c1f2e; */
+    color: #fff;
+    padding: 0 10rem;
+}
+.box
+{
+    border: 1px solid black;
+    max-width: 15rem;
+    padding: 2rem;
+    background: #565c7e;
+    /* background: #4045ff; */
+    color: #fff;
+}
+.selected
+{
+    background: #4045ff;
+}
+.box a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.heading
+{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.cont
+{
+    margin-bottom: 0.4rem;
+}
+.right-a
+{
+    display: flex;
+}
+.box
+{
+    margin: 3.5rem 1.5rem;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.right-box
+{
+    margin: 5rem 0rem;
+    margin-bottom: 0;
+}
+.head-symb
+{
+    color: blue;
+    background: #fae766;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: -2rem;
+    font-size: 2.3rem;
+}
+
+
+@media screen and (max-width: 768px) 
+{
+    .aboutPage
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .right-a
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .qualification_container
+    {
+        padding: 2rem;
+    }
+}
